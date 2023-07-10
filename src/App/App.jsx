@@ -1,4 +1,6 @@
-import { Construcao } from "./pages/construcao"
+import { Construcao } from "../pages/construcao"
+
+import '@/scss/app.scss';
 
 function App() {
 
