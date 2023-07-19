@@ -1,5 +1,5 @@
 //Variáveis
-// @import 'settings/variable.scss';
+@import 'settings/variable.scss';
 
 //Objetos
 
@@ -12,7 +12,8 @@
 @import 'Generic/Utils.scss';
 
 //Responsividade
-// @import 'Base/Responsive.scss';
+@import 'Base/Responsive.scss';
+// @import 'Base/ResponsiveNew.scss';
 
 //Containers
 @import 'containers/construcao.scss'
