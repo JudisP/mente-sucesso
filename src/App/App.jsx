@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-      <Construcao />
+      <main>
+        <Construcao />
+      </main>
     </>
   )
 }
