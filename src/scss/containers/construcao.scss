@@ -1,9 +1,18 @@
+// .container-principal-construcao {
+//     width: 100%;
+//     background-color: red;
+    
+   
+// }
 .background-construcao {
-    width: 100px;
+    width: 100%;
     background-color: #0069cb;
 
+    display: grid;
+    place-items: center;
+
     .imagem {
-        width: 1423px;
-        height: 745px;
+        width: 1000px;
+        height: 500px;
     }
 }
