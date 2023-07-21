@@ -1,5 +1,6 @@
 // import { Container } from "reactstrap"
 // import background from "../assets/backgroundConstrucao.png";
+import IconLogo from "@/assets/iconLogo.png";
 
 // import BsInstagram from 'react-icons/lib/bs/instagram'
 import { BsInstagram } from "react-icons/bs";
@@ -14,23 +15,22 @@ export function Construcao() {
     <>
       <div className="container-manuntencao">
         <section className="background-construcao">
-          {/* <img
-        src={background}
-        className="imagem"
-        alt="Imagem de Fundo da Página de Construção"
-      /> */}
           <Container className="d-flex flex-direction-col">
             <Col className="position-relative">
               <Row className="position-absolute top-0 start-0">
                 <Row>
-                  <h1>Site em</h1>
+                  <h1>
+                    <strong>Site em</strong>
+                  </h1>
                   <h1>Contrução</h1>
                 </Row>
               </Row>
               <Row className="position-absolute top-50 start-0">
                 <Row>
                   <p>Você é o único responsável</p>
-                  <p>pelo sucesso ou fracasso</p>
+                  <p>
+                    pelo <strong>sucesso</strong> ou <strong>fracasso</strong>
+                  </p>
                   <p>na sua vida!</p>
                 </Row>
               </Row>
@@ -51,7 +51,15 @@ export function Construcao() {
                 </Row>
               </Row>
             </Col>
-            <Col>Teste</Col>
+            <Col>
+              <Row>
+                <image
+                  src={IconLogo}
+                  className=""
+                  alt="Imagem de Fundo da Página de Construção"
+                />
+              </Row>
+            </Col>
           </Container>
         </section>
       </div>

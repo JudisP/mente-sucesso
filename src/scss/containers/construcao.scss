@@ -37,9 +37,14 @@
 }
 
 .container-manuntencao {
+    color: white;
+    strong {
+        color: yellow;
+    }
+    
     section {
         .container {
-            height: 400px;
+            height: 500px;
         }
     }
 }
@@ -61,9 +66,19 @@
                         padding: 0px;
                     }
 
-                    .background-icon {
-                        background-color: white;
-                        border-radius: 999px;
+                    // .background-icon {
+                    //     background-color: white;
+                    //     border-radius: 999px;
+                    // }
+                }
+            }
+
+            .col {
+                .row {
+                    image {
+
+                        width: 250px;
+                        height: 250px;
                     }
                 }
             }
