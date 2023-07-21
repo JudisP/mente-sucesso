@@ -18,6 +18,10 @@
     height: 100vh;
     background-color: #0069cb;
 
+    background-image: url("../assets/backgroundConstrucao.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,5 +33,40 @@
 
     .container-informacoes {
         
+    }
+}
+
+.container-manuntencao {
+    section {
+        .container {
+            height: 400px;
+        }
+    }
+}
+
+.container-manuntencao {
+    section {
+        .container {
+            .row {
+                .lista-icons {
+                    
+                    display: flex;
+                    flex-wrap: nowrap;
+                    // color: red;
+                    svg {
+                        color: white;
+                        width: 40px;
+                        height: 22px;
+
+                        padding: 0px;
+                    }
+
+                    .background-icon {
+                        background-color: white;
+                        border-radius: 999px;
+                    }
+                }
+            }
+        }
     }
 }
